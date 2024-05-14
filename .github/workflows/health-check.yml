@@ -1,0 +1,23 @@
+# Source:
+# https://github.com/diamondburned/acmfriends-webring/blob/%3C3-spring-2023/.github/workflows/health-check.yml
+
+name: Health check
+
+on:
+    push:
+    workflow_dispatch:
+    schedule:
+        - cron: "0 */2 * * *" # Run every 2 hours
+
+jobs:
+    health-check:
+        name: Health check
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+
+            - uses: diamondburned/libwebring/.github/actions/health-check@main
+              with:
+                  commit: true
+                  scrape-timeout: 5000
+                  scrape-for-webring-src: https://raw.githubusercontent.com/Skyline-College-Computer-Science-Club/clubwebring/master/webring.json

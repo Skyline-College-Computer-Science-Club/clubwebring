@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"name": "skylineCscRing",
+	"ring": [
+		{
+			"name": "lance",
+			"link": "lanceruiz.com"
+		},
+		{
+			"name": "john",
+			"link": "johncarlomanuel.com"
+		}
+	]
+}
