@@ -1,18 +1,18 @@
 {
-	"version": 1,
-	"name": "skylineCSC",
-	"ring": [
-		{
-			"name": "lance",
-			"link": "lanceruiz.com"
-		},
-		{
-			"name": "john",
-			"link": "johncarlomanuel.com"
-		},
-		{
-			"name":"matthew",
-			"link":"portfolio-rust-nine-27.vercel.app"
-		}
-	]
+  "version": 1,
+  "name": "skylineCSC",
+  "ring": [
+    {
+      "name": "lance",
+      "link": "lanceruiz.com"
+    },
+    {
+      "name": "john",
+      "link": "johncarlomanuel.com"
+    },
+    {
+      "name": "matthew",
+      "link": "portfolio-rust-nine-27.vercel.app"
+    }
+  ]
 }
